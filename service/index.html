@@ -64,10 +64,6 @@
                 </li>
                 
                 <li>
-                    <a href="/me/">履历</a>
-                </li>
-                
-                <li>
                     <a href="/about/">About</a>
                 </li>
                 
@@ -129,11 +125,43 @@
 						<h1 class="entry-title"><a href="https://pplboy.github.io/service/service1/" rel="bookmark">网站设计</a></h1>
 					</header>
 					<div class="entry-content">
-						<p>I don&rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.</p>
+						<p>开发一个内容不多的网站可以使用静态网站生成器，比如hugo
+        优点完全静态话的内容很方便部署到cdn上。省去了部署，数据库，性能也最大化了
+        开发流程
+        1 使用 desing-block 之类的模版库创建模版
+        2 创建 github上的版本仓库，并设定部署钩子
+        3 编辑内容并提交</p>
 
-<p></p>
+<pre><code>    开发一个偏向于内容分发的新系统
+    开发流程
+    1 使用 sketch 设计高精度模型 设计 用户交互模式
+    2 使用 ant.design 之类的 react 前端库构建系统原型
+    3 创建 api 服务
+    4 衔接 并测试
+    整个过程通过git进行版本控制
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    开发一个偏向于后端数据管理的系统
+    开发流程
+    1 使用 sketch 设计高精度模型
+    2 创建 api 服务
+    3 使用 pro.ant.design 之类的 react 完整后台前端库构建
+    4 衔接 并测试
+    整个过程通过git进行版本控制
+
+    React 的学习应当从ali的ant design开始，就可以避免瞎找资源和教程了，阿里的文档写的很好，
+                一边修改 antdesing一边看阿里的文档，再找本基本的react教程看看，效果最好。
+                不至于瞎忙。
+
+    开发一个api
+    可以使用 laravel 快速创建 对应表的api
+    设计好表，直接生成数据结构
+
+    开发一个爬虫
+    可以使用nodejs 或者 python 的相关成熟框架。
+    使用 mongdb 或者 mysql 实现存储。
+    如果数据也不太在意可以直接使用web上的开放存储，对象存储之类的服务。
+</code></pre>
+
 					</div>
 				</article>
                 
@@ -269,7 +297,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 <script src="https://pplboy.github.io/js/template.js"></script>
-<script id="dsq-count-scr" src="//charlie.cao.com/count.js" async></script>
+<script id="dsq-count-scr" src="//pplboy.github.io/count.js" async></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

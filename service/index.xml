@@ -38,9 +38,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://pplboy.github.io/service/service1/</guid>
-      <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>开发一个内容不多的网站可以使用静态网站生成器，比如hugo 优点完全静态话的内容很方便部署到cdn上。省去了部署，数据库，性能也最大化了 开发流程 1 使用 desing-block 之类的模版库创建模版 2 创建 github上的版本仓库，并设定部署钩子 3 编辑内容并提交
+ 开发一个偏向于内容分发的新系统 开发流程 1 使用 sketch 设计高精度模型 设计 用户交互模式 2 使用 ant.design 之类的 react 前端库构建系统原型 3 创建 api 服务 4 衔接 并测试 整个过程通过git进行版本控制 开发一个偏向于后端数据管理的系统 开发流程 1 使用 sketch 设计高精度模型 2 创建 api 服务 3 使用 pro.ant.design 之类的 react 完整后台前端库构建 4 衔接 并测试 整个过程通过git进行版本控制 React 的学习应当从ali的ant design开始，就可以避免瞎找资源和教程了，阿里的文档写的很好， 一边修改 antdesing一边看阿里的文档，再找本基本的react教程看看，效果最好。 不至于瞎忙。 开发一个api 可以使用 laravel 快速创建 对应表的api 设计好表，直接生成数据结构 开发一个爬虫 可以使用nodejs 或者 python 的相关成熟框架。 使用 mongdb 或者 mysql 实现存储。 如果数据也不太在意可以直接使用web上的开放存储，对象存储之类的服务。  </description>
     </item>
     
     <item>
